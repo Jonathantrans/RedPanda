@@ -329,7 +329,7 @@ nav ul li a {
     font-size: 2rem;
   }
 }
-/* 
+
 span.wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
@@ -346,4 +346,4 @@ span.wave {
    40% { transform: rotate(  9.0deg); }
    50% { transform: rotate(  0.0deg); }
   100% { transform: rotate(  0.0deg); }
-} */
+}

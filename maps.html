@@ -2,6 +2,33 @@
 <html lang="en">
 
 <head>
+  
+      <style>
+  /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b2b2b; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+</style>
+  
+  
+  
   <!-- Meta tags -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta charset="utf-8">
@@ -23,6 +50,7 @@
 
   <!-- Custom CSS styles -->
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Sitemap -->
   <link rel="alternate" type="application/rss+xml" title="ROR" href="sitemap.xml" />
@@ -237,6 +265,10 @@
         }
       }
     })
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 

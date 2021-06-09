@@ -197,7 +197,7 @@ nav ul li a {
   font-size: 14px;
   color: #999999;
   letter-spacing: 0.1em;
-  font-weight: 500;
+  font-weight: 500 !important;
   line-height: 14px;
   text-transform: uppercase;
 }

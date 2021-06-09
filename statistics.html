@@ -85,7 +85,7 @@
           <a class="nav-link" href="origin.html">Origin</a></li>
         </li>
         <li class="currentLink" class="nav-item">
-          <a class="nav-link" href="statistics.html">Statistics</a></li>
+          <a class="nav-link" href="statistics.html" style="color:#ffd700 !important">Statistics</a></li>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="maps.html">Maps</a></li>
@@ -399,15 +399,6 @@
   <script>
     AOS.init();
   </script>
-<script>
-  $(document).ready(function() {
-    $("nav [href]").each(function() {
-        if (this.href.split("?")[0] == window.location.href.split("?")[0]) {
-            $(this).addClass("active");
-        }
-    });
-});
-</script>
 </body>
 
 </html>

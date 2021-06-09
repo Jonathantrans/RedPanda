@@ -239,6 +239,15 @@
   <script>
     AOS.init();
   </script>
+<script>
+  $(document).ready(function() {
+    $("nav [href]").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
+    });
+});
+</script>
 </body>
 
 </html>

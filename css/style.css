@@ -185,7 +185,7 @@ a:focus {
   border-color: white;
 }
 
-nav ul li a:active {
+.activate {
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 14px;

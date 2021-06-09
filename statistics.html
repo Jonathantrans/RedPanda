@@ -402,7 +402,7 @@
 <script>
   $(document).ready(function() {
     $("nav [href]").each(function() {
-        if (this.href == window.location.href) {
+        if (this.href.split("?")[0] == window.location.href.split("?")[0]) {
             $(this).addClass("active");
         }
     });

@@ -185,7 +185,7 @@ a:focus {
   border-color: white;
 }
 
-.nav a.active {
+#headerNav nav.active a:visited, #sidecarNav nav.active a:visited {
   color: #ffd700 !important; 
 }
 

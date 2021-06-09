@@ -217,6 +217,11 @@ nav ul li a {
   width: 100%;
 }
 
+#footer .socials-media.hov:hover {
+  transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px #ffd700;
+}
+
 #footer .socials-media ul {
   display: inline-block;
   float: none;

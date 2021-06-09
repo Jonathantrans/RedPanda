@@ -252,6 +252,16 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+.images a:hover {
+  color: #ffd700;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /* Small devices
 /*-----------------------------------------------------------------------------------*/

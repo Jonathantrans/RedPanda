@@ -197,7 +197,7 @@ nav ul li a {
   font-size: 14px;
   color: #999999;
   letter-spacing: 0.1em;
-  font-weight: 500 !important;
+  font-weight: 500;
   line-height: 14px;
   text-transform: uppercase;
 }
@@ -251,16 +251,6 @@ nav ul li a {
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-
-.images a:hover {
-  color: #ffd700;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
 
 /*-----------------------------------------------------------------------------------*/
 /* Small devices

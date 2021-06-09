@@ -201,6 +201,10 @@ nav ul li a {
   line-height: 14px;
   text-transform: uppercase;
 }
+      
+.currentLink {
+   color: #ffd700;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer

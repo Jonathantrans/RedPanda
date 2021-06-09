@@ -186,7 +186,7 @@ a:focus {
 }
 
 .nav .current {
-  color: #ffd700;
+  text-color: #ffd700 !important; 
 }
 
 nav ul li {

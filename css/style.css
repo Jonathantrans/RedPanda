@@ -217,7 +217,7 @@ nav ul li a {
   width: 100%;
 }
 
-#footer .socials-media.hov:hover {
+#footer .socials-media:hover {
   transform: scale(1.2);
     box-shadow: 0 30px 45px -15px #ffd700;
 }
@@ -226,6 +226,11 @@ nav ul li a {
   display: inline-block;
   float: none;
   margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul:hover {
+  transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px #ffd700;
 }
 
 #footer .socials-media ul li {

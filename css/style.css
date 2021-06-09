@@ -187,6 +187,7 @@ a:focus {
 
 .nav active {
   background: #ffd700 !important; 
+  color: #ffd700 !important; 
 }
 
 nav ul li {

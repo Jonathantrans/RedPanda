@@ -185,6 +185,10 @@ a:focus {
   border-color: white;
 }
 
+.nav .current {
+  color: #ffd700;
+}
+
 nav ul li {
   margin-right: 15px;
   font-size: 14px;

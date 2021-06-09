@@ -202,8 +202,8 @@ nav ul li a {
   text-transform: uppercase;
 }
      
-#navbar li a.currentLink {
-color: #ffd700 !important;
+#navbarToggle li a.currentLink {
+color: #ffd700;
 }
 
 /*-----------------------------------------------------------------------------------*/

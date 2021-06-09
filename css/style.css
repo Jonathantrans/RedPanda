@@ -185,7 +185,7 @@ a:focus {
   border-color: white;
 }
 
-.nav active {
+.nav a.active {
   color: #ffd700 !important; 
 }
 

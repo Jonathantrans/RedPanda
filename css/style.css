@@ -202,7 +202,7 @@ nav ul li a {
   text-transform: uppercase;
 }
      
-#navbarToggle li a.currentLink {
+#navbar li a.currentLink {
 color: #ffd700;
 }
 

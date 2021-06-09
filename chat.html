@@ -89,7 +89,7 @@
         <li class="nav-item">
           <a class="nav-link" href="maps.html">Maps</a></li>
         </li>
-        <li class="currentLink" class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="chat.html">Chat</a>
         </li>
       </ul>
@@ -246,6 +246,17 @@
       }
     })
   </script>
+<script>
+  var currentPath = window.location.pathname;
+var pageName = currentPath.substr(currentPath.lastIndexOf('/')+1); // "index.html", etc
+$("a[href=" + pageName + "]").parent().css("color", "#ffd700");
+</script>
+<script>
+  var targets = document.querySelectorAll('a[href=' + pageName + ']');
+if (targets.length > 0) {
+    targets[0].parentNode.style.color = "#ffd700";
+}
+</script>
 </body>
 
 </html>

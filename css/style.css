@@ -185,8 +185,8 @@ a:focus {
   border-color: white;
 }
 
-.nav .current {
-  text-color: #ffd700 !important; 
+.nav active {
+  background: #ffd700 !important; 
 }
 
 nav ul li {

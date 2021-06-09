@@ -185,17 +185,6 @@ a:focus {
   border-color: white;
 }
 
-.activate {
-  font-family: "Poppins", sans-serif;
-  display: block;
-  font-size: 14px;
-  color: #ffd700 !important;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  line-height: 14px;
-  text-transform: uppercase;
-}
-
 nav ul li {
   margin-right: 15px;
   font-size: 14px;

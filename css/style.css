@@ -185,7 +185,7 @@ a:focus {
   border-color: white;
 }
 
-#headerNav nav.active a:visited, #sidecarNav nav.active a:visited {
+.active #mainMenuContainer ul li a.active {
   color: #ffd700 !important; 
 }
 

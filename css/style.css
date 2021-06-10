@@ -126,8 +126,8 @@ blockquote {
 .zoom img {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
     }
 
 .zoom img:hover {

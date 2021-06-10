@@ -122,14 +122,15 @@ blockquote {
 }
 
 .zoom img {
-      -webkit-transition: all 2s ease;
-      -moz-transition: all 2s ease;
-      -ms-transition: all 2s ease;
-      transition: all 2s ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
     }
 
 .zoom img:hover {
-   width: 30px;
+	-webkit-transform: scale(1.3);
+  transform: scale(1.3);
    }
 
 /*----------------------------------------------------------------------------*/

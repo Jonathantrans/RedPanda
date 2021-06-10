@@ -121,6 +121,7 @@ blockquote {
   width: 100% !important;
 }
 
+/* Image Zoom Animation*/
 .zoom img {
   -webkit-transform: scale(1);
   transform: scale(1);

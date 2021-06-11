@@ -43,6 +43,15 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+/* Copyright Text */
+  h4 {
+    margin: 0;
+    color: black;
+    font-weight: 400000;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
 p {
   font-weight: 500;
   font-size: 22px;
@@ -362,11 +371,3 @@ span.wave {
    50% { transform: rotate(  0.0deg); }
   100% { transform: rotate(  0.0deg); }
 }
-
-  h4 {
-    margin: 0;
-    color: black;
-    font-weight: 400000;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }

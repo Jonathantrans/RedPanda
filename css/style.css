@@ -371,3 +371,41 @@ span.wave {
    50% { transform: rotate(  0.0deg); }
   100% { transform: rotate(  0.0deg); }
 }
+
+*[class^="btn"] {
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s; 
+  max-width: auto; 
+}
+
+*[class^="btn-"]:hover {
+  transform: translate(0px, 2px);
+  box-shadow: 0px 2px 0px transparent; }
+
+*[class^="btn"]:active,
+*[class^="btn"]:focus {
+  transform: translate(0px, 4px);
+  box-shadow: 0px 1px 0px transparent; }
+
+*[class^="btn"] > i[class^="fa"] {
+  margin: 0px 5px 0px -5px;
+  color: inherit; }
+
+
+.btn-r {
+  color: #000000;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  box-shadow: 0px 3px 0px #8f8f8f;
+ }

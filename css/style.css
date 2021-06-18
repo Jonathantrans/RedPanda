@@ -150,7 +150,7 @@ blockquote {
 }
 
 .click-zoom img {
-  margin: 100px;
+  margin: auto;
   transition: transform 0.25s ease;
   cursor: zoom-in
 }

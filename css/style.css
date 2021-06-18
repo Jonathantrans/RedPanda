@@ -156,7 +156,7 @@ blockquote {
 }
 
 .click-zoom input[type=checkbox]:checked~img {
-  transform: scale(2);
+  transform: scale(1);
   cursor: zoom-out
 }
 

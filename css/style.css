@@ -150,15 +150,13 @@ blockquote {
 }
 
 .click-zoom img {
-  margin: 0 auto;
+  margin: auto;
   transition: transform 0.25s ease;
-	display: block;
   cursor: zoom-in
 }
 
 .click-zoom input[type=checkbox]:checked~img {
   transform: scale(1.5);
-	display: block;
   cursor: zoom-out
 }
 

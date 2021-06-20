@@ -152,6 +152,7 @@ blockquote {
 .click-zoom img {
   margin: auto;
   transition: transform 0.25s ease;
+	  position: absolute;
   cursor: zoom-in
 }
 
